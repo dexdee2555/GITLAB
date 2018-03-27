@@ -34,9 +34,9 @@ void main()
          printf("Incorrect hours or minutes, try again.");  
     } while (hours < 0 || hours > 23 || minutes < 0 ||
            minutes > 59); 
-    if (hours >=0 && hours <=11)
+    if (hours >=1 && hours <=10)
       printf("Good Morning, "); 
-    else if (hours >= 12 && hours <=18) 
+    else if (hours >= 11 && hours <=18) 
       printf("Good Afternoon, "); 
     else 
       printf ("Good Evening, "); 
