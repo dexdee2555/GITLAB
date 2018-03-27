@@ -35,9 +35,9 @@ void main()
     } while (hours < 0 || hours > 23 || minutes < 0 ||
            minutes > 59); 
     if (hours >=0 && hours <=11)
-      printf("Good Morning, "); 
+      printf("Good Morning eiei, "); 
     else if (hours >= 12 && hours <=18) 
-      printf("Good Afternoon, "); 
+      printf("Good Afternoon ahha, "); 
     else 
       printf ("Good Evening, "); 
     printf("%s. Time is %02d:%02d\n", Name, hours,
