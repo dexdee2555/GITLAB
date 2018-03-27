@@ -21,8 +21,8 @@ void main()
        time_now->tm_mday, time_now->tm_mon, time_now->tm_year + 1900, 
        time_now->tm_hour, time_now->tm_min);
   do
-  {
-    printf("What is your name? "); scanf("%s", Name);
+  { 
+    printf("What is your name please? "); scanf("%s", Name);
     do
     {  
        timer = time(NULL); 
